@@ -1,0 +1,39 @@
+.student-card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #2563eb;
+}
+
+.student-card h2 {
+  color: #2563eb;
+  margin: 15px 0;
+}
+
+.details {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.student-card button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-card button:hover {
+  background-color: #1e40af;
+}
